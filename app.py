@@ -46,7 +46,7 @@ class Conv2ImgApp (QWidget):
             conv = ConvImg()
             print(fname)
             result = conv.toImage(fname[0])
-            QMessageBox.about(self,"结果","转换完成！")
+            QMessageBox.about(self,"结果",result)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
